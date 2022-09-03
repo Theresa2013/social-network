@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const {
     getAllThoughts,
-    getThoughtsById,
+    getThoughtById,
     createThought,
     updateThought,
     deleteThought,
@@ -17,13 +17,16 @@ router
 
 router
     .route('/:id')
-    .get(getThoughtsById)
+    .get(getThoughtById)
     .put(updateThought)
     .delete(deleteThought)
 
 router
     .route('/:thoughtId/reactions')
     .post(createReaction)
+
+router
+    .route('/:thoughtId/:reactionId')
     .delete(deleteReaction)
 
 module.exports = router;
