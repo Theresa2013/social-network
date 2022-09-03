@@ -47,6 +47,7 @@ npm mongoose
 ![Demo](./images/Screenshot.png)
 ![Demo](./images/Screenshot1.png)
 ![Demo](./images/Screenshot2.png)
+![Demo](./images/Screenshot3.png)
 
 GitHub Repo: https://github.com/Theresa2013/social-network.git
 
