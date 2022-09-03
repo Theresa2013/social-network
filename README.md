@@ -38,9 +38,11 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Installation
 
+```md
 npm i
 npm express
 npm mongoose
+```
 
 ## Usage
 
