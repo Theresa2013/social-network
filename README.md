@@ -2,6 +2,18 @@
 
 ## Table of Contents
 
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Questions](#questions)
+
+## Description
+
+This is an API that I have built for a social network web application where users are able to share their thoughts, react to friends' thoughts, and create a friend list. Express.js and the MongoDB database were used in creating this API.
+
 ## User Story
 
 ```md
@@ -23,3 +35,29 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
+
+## Installation
+
+npm i
+npm express
+npm mongoose
+
+## Usage
+
+![Demo](./images/Screenshot.png)
+![Demo](./images/Screenshot1.png)
+![Demo](./images/Screenshot2.png)
+
+GitHub Repo: https://github.com/Theresa2013/social-network.git
+
+## Contribution
+
+If you are interested in future development, please reach me via email or Github!
+
+## Questions
+
+If you have any questions, please feel free to reach out!
+
+Github username: Theresa2013
+
+Github Email: tab61295@gmail.com
